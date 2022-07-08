@@ -11,7 +11,7 @@ update `spec_helper.rb` :
 ```ruby
 require "dry/configurable/test_interface"
 
-# this is your module/class that extended by Dry::Configurable
+# this is your module/class that is extended by Dry::Configurable
 module AwesomeModule
   enable_test_interface
 end
